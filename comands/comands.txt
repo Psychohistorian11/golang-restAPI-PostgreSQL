@@ -1,0 +1,15 @@
+---- Iniciar la base de datos por medio de docker
+#docker exec -it "containerName" bash
+#psql -U "username" --password
+
+---- Ingresar contraseña
+
+---- Cambiar a la base de datos de gorm
+#\c gorm
+
+---- Para ver las tablas
+#\d 
+
+---- Ver una tabla
+#\d "Nombre de la tabla"
+
